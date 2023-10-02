@@ -1,1 +1,0 @@
-Aqui la idea es que cuando terminen el inicio de sesion, todos trabajemos aqui para hacer un seguimiento de la pagina principal. Tambien creare otras ramas para subir archivos aparte y compararlos
