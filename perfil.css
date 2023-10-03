@@ -95,11 +95,11 @@ nav .nav-right a > i{
 }
 
 .navbar {
-    position: fixed; /* Fija la barra de navegación */
-    top: 0; /* La fija en la parte superior de la ventana del navegador */
-    width: 100%; /* Ancho completo */
-    background-color: #333; /* Cambia el color de fondo según tu preferencia */
-    z-index: 100; /* Asegura que esté encima de otros elementos */
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background-color: #ffffff;
+    z-index: 100; 
 }
 
 html {
@@ -146,12 +146,6 @@ body {
     height: 17rem;
     background-image: linear-gradient(45deg, #BC3CFF, #317FFF);
     border-radius: 0 0 20px 20px;
-    /*
-    background-image: url('http://localhost/multimedia/png/user-portada-3.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    */
 }
 
 .seccion-perfil-usuario .perfil-usuario-portada .boton-portada {
@@ -333,3 +327,94 @@ body {
     color: #309B76;
     transform: scale(1.4)
 }
+
+.post{
+    width:550px;
+    background:#fff;
+    border-radius:10px;
+    padding:10px;
+    margin:10px;
+}
+
+.post .post-top{
+    display:flex;
+    align-items: center;
+    padding:10px;
+}
+
+.post .post-top .dp{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.post .post-top .dp > img{
+    width:100%;
+    cursor:pointer;
+}
+
+.post .post-top .post-info{
+    margin-left:10px;    
+    font-weight: bold;
+}
+
+.post .post-top .post-info .name{
+    cursor:pointer;
+    font-size:16px;
+}
+
+.post .post-top .post-info .time{
+    font-size:12px;
+    cursor:pointer;
+}
+
+.post .post-top i{
+    margin-left:auto;
+    cursor: pointer;
+}
+
+.post .post-top > input{
+    height:40px;
+    padding:5px 10px;
+    border-radius:25px;
+    outline:none;
+    border:none;
+    flex:1;
+    background:#eee;
+    margin-left:10px;
+}
+
+.post .post-content{
+    font-size:16px;
+    font-weight:normal;
+    padding:10px;
+}
+
+.post .post-content > img{
+    width:100%;
+    margin:5px 0px;
+}
+
+.post .post-bottom{
+    box-shadow: 1px solid #ddd;
+    display:flex;
+    justify-content: space-between;
+    padding:5px 5px 0px 5px;
+}
+
+.post .post-bottom .action{
+    padding:10px;
+    border-radius:10px;
+    transition: .3s ease-in;
+    cursor: pointer;
+}
+
+.post .post-bottom .action:hover{
+    background:#eee;
+}
+
+.post.create .post-bottom > .action{
+    color:#d74;
+}
+
