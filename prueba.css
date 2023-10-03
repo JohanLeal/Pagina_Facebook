@@ -94,6 +94,75 @@ nav .nav-right a > i{
     font-size:18px;
 }
 
+/* Agrega estilos para el menú desplegable */
+.dropdown-menu {
+    height: 500px;
+    width: 610px;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    right: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-menu h2 {
+    margin-top: 15px; /* Ajusta el margen superior para separar del borde superior */
+    margin-left: 15px; /* Ajusta el margen izquierdo para separar del borde izquierdo */
+}
+
+.dropdown-menu.show-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown-column {
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.column1 {
+    height: 420px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.column2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+}
 
 .container{
     background:#eee;
@@ -386,3 +455,4 @@ nav .nav-right a > i{
     cursor:pointer;
     margin-left:8px;
 }
+
