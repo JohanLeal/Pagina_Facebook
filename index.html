@@ -10,6 +10,7 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
     <title>Facebook</title>
 </head>
 
@@ -43,16 +44,56 @@
             <span class="profile"></span>
         </a>
 
-            <a href="#">
-                <i class="fa fa-bell"></i>
+        <div class="notification">
+            <a href="#" id="notification-icon" onclick="toggleNotifications()">
+                <i class="fas fa-bell">
+                    <span class="notification-dot"></span>
+                </i>
             </a>
+            <div class="notification-menu" id="notification-menu">
+                <h2>Notificaciones</h2>
+                <span class="trespnts">...</span>
+                <div class="notification-buttons">
+                    <button class="btn"><b>Todas</b></button>
+                    <button class="btn"><b>No leídas</b></button>
+                </div><br>
+                <h3>Anteriores</h3>
+                <span class="vertodo">Ver todo</span>
+                <ul>
+                    <!-- Aquí puedes agregar tus notificaciones -->
+                    <li><div class="notification">
+                        <img src="./images/perfil6.jpeg" alt="Notificación 1">
+                        <p><b>Santiago</b> agregó una publicación.</p>
+                    </div></li>
+                    <li><div class="notification">
+                        <img src="./images/perfil4.jpg" alt="Notificación 2">
+                        <p><b>Andrea Rivas</b> comentó en tu publicación.</p>
+                    </div></li>
+                    <li><div class="notification">
+                        <img src="./images/perfil5.png" alt="Notificación 3">
+                        <p><b>Pablo Escobar</b> te mencionó en una publicación.</p>
+                    </div></li>
+                    <li><div class="notification">
+                        <img src="./images/perfil9.jpg" alt="Notificación 4">
+                        <p><b>Mariana Cavas</b> reaccionó a tu comentario.</p>
+                    </div></li>
+                    <li><div class="notification">
+                        <img src="./images/perfil10.jpg" alt="Notificación 5">
+                        <p><b>Maria Paz</b> publicó un video nuevo.</p>
+                    </div></li>
+                    <li><div class="notification">
+                        <img src="./images/perfil11.jpg" alt="Notificación 6">
+                        <p><b>Juanita Vivas</b> compartió la publicación de <b>Cartagena</b>.</p>
+                    </div></li>
+                </ul>
+            </div>
+        </div>
 
             <a href="#">
                 <i class="fas fa-ellipsis-h"></i>
             </a>
         </div>
     </nav>
-
 
     <div class="container">
         <div class="left-panel">
@@ -173,15 +214,15 @@
                 </div>
                 
                 <div class="post-bottom">
-                    <div class="action">
+                    <div class="action1">
                         <i class="fa fa-video"></i>
                         <span>En vivo</span>
                     </div>
-                    <div class="action">
+                    <div class="action2">
                         <i class="fa fa-image"></i>
                         <span>Foto/Video</span>
                     </div>
-                    <div class="action">
+                    <div class="action3">
                         <i class="fa fa-smile"></i>
                         <span>Actividad</span>
                     </div>

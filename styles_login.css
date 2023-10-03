@@ -103,7 +103,7 @@ hr{
 .formularioemergente {
     background-color: #fff;
     width: 435px;
-    height: 550px;
+    height: 595px;
     padding: 20px;
     position: absolute;
     top: 50%;
@@ -168,6 +168,19 @@ hr{
 .formularioemergente .ultimo{
     font-size: 12px;
     text-align: left;
+}
+
+.regis{
+    display: block;
+    width: 120px;
+    margin: auto;
+    background-color: #42b72a;
+    padding: 16px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 .genero-buttons {
