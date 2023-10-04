@@ -10,6 +10,8 @@
         integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="messenger.css">
+    <script src="messenger.js"></script>
     <title>Facebook</title>
 </head>
 
@@ -38,10 +40,79 @@
             </a>
         </div>
 
+        
+
         <div class="nav-right">
             <a href="perfil.html">
             <span class="profile"></span>
         </a>
+        
+        <a href="#" id="ellipsis-icon" onclick="toggleDropdown()">
+            <img src="images/messenger-fill-svgrepo-com.svg">
+        </a>
+        <div class="dropdown-menu" id="dropdown-menu">
+            <ul>
+                <li>
+                    <header class="hemess">
+                    <h2>Chats</h2>
+                    <div class="mg">
+                        <img src="./images/Simpleb.png">
+                    </div>
+                    <div class="mg1">
+                        <img src="./images/botondespliegue.png">
+                    </div>
+                    <div class="mg2">
+                        <img src="./images/lapiz.png">
+                    </div>
+                    </header>
+                    <div class="inputb">
+                        <input type="text" placeholder="Buscar en Messenger">
+                    </div>
+
+                    <div class="messengerbotones">
+                        <button class="boton"><b>Bandeja de entrada</b></button>
+                        <button class="boton1"><b>comunidades</b></button>
+                    </div><br>
+                    
+                    <div class="mensajes">
+                        <div class="contacto1">
+                            <img src="./images/boy.jpg" alt="">
+                            <h4>Pablo Olaya</h4>
+                            <p>Pablo Olaya envio un video. 4h</p>
+                        </div>
+
+                        <div class="contacto1">
+                            <img src="./images/girl.jpg" alt="">
+                            <h4>Sofia Vargas</h4>
+                            <p>Tú: Ya hacía falta el descanso jaja. 6h</p>
+                            </div>
+
+                        <div class="contacto1">
+                            <img src="./images/perfil4.jpg" alt="">
+                            <h4>Vanesa Torres</h4>
+                            <p>Tú: Mal Mal me fui. 1d</p>
+                            </div>
+                        
+                        <div class="contacto1">
+                            <img src="./images/perfil1.1.jpg" alt="">
+                            <h4>Santiago Insano</h4>
+                            <p>Tú: un free o que?. 2d</p>
+                            </div>
+                        
+                        <div class="contacto1">
+                            <img src="./images/perfil2.jpg" alt="">
+                            <h4>luis Diaz</h4>
+                            <p>Tú:  ya voy. 7d</p>
+                            </div>
+                        <hr>
+                    </div>
+                    <div class="vermess">
+                        <p>Ver todo en Messenger</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    
 
             <a href="#">
                 <i class="fa fa-bell"></i>
